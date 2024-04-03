@@ -29,7 +29,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: thenephelecloud/nephele-genesis-generator
+          images: giaki3003nephele/nephele-genesis-generator
           flavor: latest=true
           tags: |
             type=semver,pattern=verkle-gen-{{version}}
